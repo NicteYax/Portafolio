@@ -1,6 +1,18 @@
+/*
+*{
+    box-sizing: border-box;
+    padding: 25%;
+    margin: 20px;
+}*/
+
 body{
     background-color: rgb(245, 246, 230);
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+}
+
+html{
+    min-height: 100%;
 }
 
 nav{
@@ -23,7 +35,51 @@ a:hover{
     border-radius: 15px;
     padding: 20px;
 }
-.link{
+/*
+.grid-container>*{
+    text-align: center;
+    padding: 25%;
+}
+
+.photo{
+    grid-area: photo;
+    background-color: rgb(87, 112, 117);
     padding: 50px;
     margin: 10px;
+}
+
+.link{
+    grid-area: link;
+    background-color: rgb(87, 112, 117);
+    padding: 50px;
+    margin: 10px;
+}
+
+.perfil{
+    grid-area: perfil;
+    background-color: rgb(157, 172, 129);
+    padding: 50px;
+    margin: 10px;
+}
+
+.intereses{
+    grid-area: intereses;
+    background-color: rgb(157, 172, 129);
+    padding: 50px;
+    margin: 10px;
+}
+
+/*Escritorio o lap*/
+@media (min-width: 900px) /*poner un punto nos da un espacio vacío*/
+{
+    /*.grid-container{
+        grid-template-columns: 200px auto;
+        grid-template-rows: 100px 50px auto 100px;
+        grid-template-areas: 
+        "navbar navbar navbar"
+        "photo perfil"
+        "link intereses"
+        ;
+
+    }*/
 }
