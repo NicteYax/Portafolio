@@ -27,6 +27,11 @@ body{
     padding: 20px;
 }
 
+.proyectos{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
 .card{
     background-color: rgb(87, 112, 117);
     color: white;
@@ -47,6 +52,7 @@ body{
 }
 
 .card-text{
+    color: black;
     background-color: rgb(157, 172, 129);
     padding: 5px;
     margin: 5px;
@@ -56,4 +62,7 @@ body{
 .btnInfo{
     background-color: rgb(157, 172, 129);
     color: rgb(245, 246, 230);
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
 }
