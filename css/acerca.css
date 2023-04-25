@@ -46,7 +46,8 @@ body{
 .photo{
     grid-column: 2/6;
     background-color: rgb(87, 112, 117);
-    background-image: url("src/img/fondo_foto.jpeg"); 
+    background-image: url("../src/img/fondo_foto.jpeg"); 
+    background-repeat: no-repeat;
     padding: 10px;
     margin: 5px;
     border-radius: 10px;
@@ -56,17 +57,19 @@ body{
 
 #perfil{
     grid-column: 7/12;
-    /* background-color: rgb(157, 172, 129); */
-    background-image: url("src/img/fondo_verde.jpeg"); 
+    background-image: url("../src/img/fondo_verde.jpg"); 
+    background-repeat: no-repeat;
     padding: 20px;
     margin: 5px;
     border-radius: 10px;
+
 }
 
 #intereses{
     grid-column: 7/12;
     background-color: rgb(157, 172, 129);
-    background-image: url("src/img/fondo_verde.jpeg");
+    background-image: url("../src/img/fondo_verde.jpg");
+    background-repeat: no-repeat;
     padding: 20px;
     margin: 5px;
     border-radius: 10px;
