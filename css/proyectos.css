@@ -29,15 +29,17 @@ body{
 
 .proyectos{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .card{
     background-color: rgb(87, 112, 117);
     color: white;
     margin: 20px;
+    margin-left: 3.5rem;
     border-radius: 15px;
     padding: 1rem;
+    align-items: center;
 }
 
 .card-img-top{
@@ -63,6 +65,6 @@ body{
     background-color: rgb(157, 172, 129);
     color: rgb(245, 246, 230);
     padding: 5px;
-    margin: 5px;
+    margin-top: 5px;
     text-align: center;
 }
